@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Documento Padrão</title>
+
+    <style>
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 5px 2px;            
+            border: 2px solid black;
+            color: blueviolet; 
+            empty-cells:hide;
+            text-align: center;
+                      
+        }
+
+        thead {
+            color: black;
+
+        }
+
+        tr, td {
+            border: 1px dashed black;
+            text-align: center;
+        }
+
+       caption{
+            caption-side: bottom;
+            color:brown;
+        }
+
+        tfoot{
+            color: black;
+            text-align: center;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: lightskyblue;
+        }
+        
+        tbody tr:nth-child(odd) {
+            background-color: lightcyan;
+        }
+
+        tbody tr:hover {
+            background-color: yellow;
+        }
+
+
+    </style>
+
+</head>
+<body>
+       <table  border ="1">
+           <caption>Tabela 1. Dados Pessoais</caption>
+
+           <thead>
+           
+                 <tr>
+                    <th rowspan="2">Nome</th>
+                    <th rowspan="2">Telefone</th>
+                    <th colspan="5">Endereço</th>
+                    
+                 </tr>
+                 <tr>
+                     <th>Rua</th>
+                     <th>Número</th>
+                     <th>Cidade</th>
+                     <th>Estado</th>
+                     <th>CEP</th>
+                 </tr>
+             </thead>
+             <tbody>
+                <tr>
+                    <td>Joseph Smith</td>
+                    <td>351.000.000.000</td>
+                    <td>Rua Sapiranga</td>
+                    <td>11111</td>
+                    <td>Nova York</td>
+                    <td>NY</td>
+                    <td>66666666</td>
+                </tr>
+                <tr>
+                    <td>Joseph Smith</td>
+                    <td>351.000.000.000</td>
+                    <td>Rua Sapiranga</td>
+                    <td>11111</td>
+                    <td>Nova York</td>
+                    <td>NY</td>
+                    <td>555555555</td>
+                </tr>
+            </tbody>
+            
+            <tfoot>
+                <tr>
+                    <th colspan="7">Para maiores informações, ligue 351.000.000.000</th>
+                </tr>
+            </tfoot>
+
+            
+           
+       </table>
+    
+</body>
+</html>
