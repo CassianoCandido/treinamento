@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Olá mundo!</title>
+        <meta charset="UTF-8" />
+
+        <link rel="shortcut icon" type="image/x-icon" href="icones/favicon.ico">
+
+        <style>
+            body {background-color:antiquewhite;}
+            h1 {color:blueviolet}
+            h2 {color:pink}
+            p {color:red}
+
+        </style>
+    </head>
+
+    <body>
+            <a href="#Introdução">Ir para Introdução</a><br>
+            <a href="#Desenvolvimento">Ir para Desenvolvimento</a><br>
+            <a href="#Conclusão">Ir para Conclusão</a><br>
+
+            <a href="Documento_Destino.html#Introdução2">Ir para Introdução2</a>
+
+
+
+        <header>
+            <figure>
+                <img src="" />
+            </figure>
+            <nav>
+                <ul>
+                    <a href="http://www.google.com.br" target="_blank">
+                        <img src="katana vermelha.jpg" height="200" />
+                        <p>Testando</p>
+                    </a>
+
+                    <h1 id="Introdução">Introdução</h1>
+                    <li><a href="">Tutoials</a></li>
+                    <li><a href="">References</a></li>
+                    <li><a href="">Exercises</a></li>
+                    <li><a href="">Videos</a></li>
+                </ul>
+
+                <div>
+                    <a href="">Link do Pro (new)</a>
+                </div>
+                <div>
+                    <a href="">Website</a>
+                    <a href="">Paid CoursesWebsite</a>
+                    <a href="">Login</a>
+                </div>
+            </nav>
+        </header>
+        
+        <nav>
+            <h1 id="Desenvolvimento">Desenvolvimento</h1>
+            <ul>
+                <li><a>HTML</a></li>
+                <li><a>CSS</a></li>
+                <li><a>Javascript</a></li>
+                <li><a>PHP</a></li>
+                 <li><a>PYTHON</a></li>
+            </ul>
+        </nav>
+
+            <main>
+                <header>
+                    <h1>HTML selection Tag</h1>
+                        <button>Previous</button>
+                        <button>Complete HTML Reference</button>
+                        <button>Next</button>
+                    
+                </header>
+
+                <div>
+                    <h2>Exemple</h2>
+                    <p>Two sections in a document:</p>
+                    <code>
+                        printf("teste123", %d);<br>
+                        printf("teste123", %d);<br>
+                        printf("teste123", %d);<br>
+                        printf("teste123", %d);<br>                        
+                    </code>
+                    <p>A <abbr title="Organização Mundial de Saúde">OMS</abbr> determina que as melhores práticas...</p>
+                </div>
+
+            </main>
+            
+        <div>
+            <h1>Propagandas</h1>
+            <img src="" />
+            <img src="" />
+            <img src="" />
+
+        </div>
+
+        <h1 id="Conclusão">Conclusão</h1>
+        <footer>
+            <p> Site é bla bla bla</p>
+            <p> Direitos legais bla bla bla</p>
+            <p> Quem fez e para que</p>
+        </footer>
+
+
+    </body>
+</html>
